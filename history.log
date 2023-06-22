@@ -1,0 +1,200 @@
+  876  cd 01-dapp/
+  877  yarn hardhat node
+  878  ll
+  879  cd backend/
+  880  yarn hardhat node
+  881  l
+  882  ll
+  883  ll .bashrc 
+  884  batcat .bashrc 
+  885  grep "exa" .bashrc 
+  886  ll
+  887  batcat .profile 
+  888  ll
+  889  alias
+  890  cd workspace
+  891  tree -n 3
+  892  tree -h
+  893  tree --help
+  894  tree -L 5
+  895  tree -L 3
+  896  tree -L 2
+  897  htop
+  898  neofetch 
+  899  npx create-next-app@latest ./
+  900  ll
+  901  npx create-next-app@latest ./
+  902  code .
+  903  mkdir backend
+  904  mkdir frontend
+  905  cd backend/
+  906  yarn hardhat
+  907  hardhat init
+  908  yarn hardhat init
+  909  yarn add hardhat
+  910  yarn hardhat
+  911  yarn hardhat run ./scripts/deploy.js 
+  912  history > cli.log
+  913  batcat cli.log 
+  914  yarn hardhat run ./scripts/deploy.js 
+  915  yarn hardhat run ./scripts/deploy.js --network localhost
+  916  yarn hardhat node
+  917  history > cli.log
+  918  yarn hardhat run ./scripts/deploy.js --network localhost
+  919  batcat cli.log 
+  920  history > cli.log
+  921  php speeddial.php 
+  922  cd workspace/learning/alyra/07-dApp/05-Web3JS\ -\ NextJS/02-dapp-exo/frontend/
+  923  yarn add harhat
+  924  ll
+  925  batcat package.json 
+  926  yarn hardhat init
+  927  ll
+  928  yarn hardhat node
+  929  cd ..
+  930  cd backend/
+  931  npx hardhat node
+  932  clear
+  933  npx hardhat node
+  934  mm
+  935  ll
+  936  clear
+  937  ll
+  938  code .
+  939  yarn hardhat node
+  940  cd workspace/learning/alyra/07-dApp/05-Web3JS\ -\ NextJS/02-dapp-exo/frontend/
+  941  ll
+  942  yarn hardhat node
+  943  yarn hardhat node_modules/yarn hardhat
+  944  ll
+  945  clear
+  946  npm init
+  947  npm install --save-dev hardhat
+  948  npx hardhat
+  949  history|tail -n 200 > history.log
+  950  ll
+  951  history 
+  952  code .
+  953  cd ..
+  954  code .
+  955  cd frontend/
+  956  cd ..
+  957  ll
+  958  mv frontend/ frontend2/
+  959  ll
+  960  mv backend/ frontend/
+  961  ll
+  962  mv frontend2/ backend/
+  963  cd backend/
+  964  npx hardhat compil
+  965  npx hardhat compile
+  966  ll
+  967  clear
+  968  yarn add hardhat
+  969  yarn hardhat
+  970  yarn hardhat compile
+  971  history|tail -n 200 > history.log
+  972  history 
+  973  yarn hardhat compile
+  974  ll
+  975  alias
+  976  cd workspace/learning/alyra/
+  977  ll
+  978  cd 07-dApp/
+  979  ll
+  980  cd 05-Web3JS\ -\ NextJS/
+  981  ll
+  982  cd 02-dapp-exo/
+  983  ll
+  984  cd frontend/
+  985  ll
+  986  cd ..
+  987  cdll
+  988  ll
+  989  cd frontend/
+  990  cd "~/workspace/learning/alyra/07-dApp/05-Web3JS - NextJS"
+  991  cd workspace/learning/alyra/07-dApp/05-Web3JS\ -\ NextJS/
+  992  ll
+  993  cd 03-dapp-nextjs/
+  994  npx next dev
+  995  cd workspace/learning/alyra/
+  996  ll
+  997  cd 07-dApp/
+  998  ll
+  999  cd 05-Web3JS\ -\ NextJS/
+ 1000  ll
+ 1001  cd 03-dapp-nextjs/
+ 1002  npx create-next-app@latest .
+ 1003  ll
+ 1004  code .
+ 1005  npx run dev
+ 1006  npx next dev
+ 1007  ll
+ 1008  history  > history.log
+ 1009  neofetch 
+ 1010  hrop
+ 1011  htop
+ 1012  neofetch 
+ 1013  ll
+ 1014  neofetch 
+ 1015  rustc --version
+ 1016  rustup --version
+ 1017  rustup --help
+ 1018  rustup update
+ 1019  btop
+ 1020  cd workspace/learning/alyra/07-dApp/05-Web3JS\ -\ NextJS/
+ 1021  ll
+ 1022  cd 01-dapp/
+ 1023  ll
+ 1024  cd frontend/
+ 1025  ll
+ 1026  cd ../backend/
+ 1027  ll
+ 1028  batcat package.json 
+ 1029  ll
+ 1030  batcat cli.log 
+ 1031  ll
+ 1032  batcat cli.log 
+ 1033  cd ..
+ 1034  ll
+ 1035  cd slides_cours/
+ 1036  ll
+ 1037  htop
+ 1038  cd workspace/learning/alyra/
+ 1039  ll
+ 1040  cd 07-dApp/
+ 1041  ll
+ 1042  cd 05-Web3JS\ -\ NextJS/
+ 1043  ll
+ 1044  mkdir "04-dapp-nextjs-bis"
+ 1045  ll
+ 1046  cd 04-dapp-nextjs-bis/
+ 1047  ll
+ 1048  bcli
+ 1049  alias bcli="history|tail -n 200 > history.log"
+ 1050  bcli
+ 1051  ll
+ 1052  batcat history.log 
+ 1053  npx create-next-app@latest ./
+ 1054  ll
+ 1055  rm history.log 
+ 1056  npx create-next-app@latest ./
+ 1057  ll
+ 1058  bcli
+ 1059  ll
+ 1060  code .
+ 1061  bcli
+ 1062  batcat history.log 
+ 1063  cd ..
+ 1064  ll
+ 1065  mkdir 05-sapp-nextjs-chakra
+ 1066  ll
+ 1067  cd 05-sapp-nextjs-chakra/
+ 1068  batcat ../04-dapp-nextjs-bis/history.log 
+ 1069  npx create-next-app@latest ./
+ 1070  code .
+ 1071  yarn add @chakra-ui/react @emotion/react @emotion/styled framer-motion
+ 1072  bcli
+ 1073  yarn add @metamask/detect-provider
+ 1074  yarn add ethers@5.7
+ 1075  bcli
