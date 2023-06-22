@@ -41,10 +41,11 @@ export const WalletProvider = ({ children })=> {
 					.then( handleAccountsChanged)
 					.catch((err)=> {
 						// l'erreur 4001 provient du fait que l'utilisateur cancel
-						// la dmeande de connexion à Metamask lorsque la popu Metamask
+						// la demande de connexion à Metamask lorsque la popu Metamask
 						// de connexion à un compte se lance
 						if( err.code === 4001) {
 							console.log("Please connec to METAMASK");
+							alert("Please connec to METAMASK");
 						} else {
 							// Sinon c'est une autre erreur inconnue que l'on veut connaitre avec le console.log
 							console.log(err);
@@ -52,10 +53,12 @@ export const WalletProvider = ({ children })=> {
 				});
 			} else {
 				console.log("Please, change your network on METAMASK, you need to be connected to Goerli Test network");
+				alert("Please, change your network on METAMASK, you need to be connected to Goerli Test network");
 			}
 
 		} else {
 			console.log("Please, install METAMASK");
+			alert("Please, install METAMASK");
 		}
 	};
 
@@ -70,13 +73,16 @@ export const WalletProvider = ({ children })=> {
 	const handleAccountsChanged = (accounts)=> {
 		if( accounts.length === 0) {
 			console.log("Please connect to METAMASK");
+			alert("Please connect to METAMASK");
 			setAccount(null);
 			setProvider( null );
 			setChainId(null);
 			console.log("disconnected");
+			alert("disconnected");
 		} else if(accounts[0] !== currentAccount) {
 			currentAccount = accounts[0];
 			console.log(currentAccount);
+			alert(currentAccount);
 			setAccount(currentAccount);
 			setProvider( new ethers.providers.Web3Provider(window.ethereum));
 		}
